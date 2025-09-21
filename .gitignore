@@ -1,0 +1,22 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+.features-gen/
+test-results/
+playwright-report/
+reports/
+allure-results/
+allure-report/
+log/
+
+# Ignore all .env files except .env.example
+.env*
+!.env.example
+
+# Ignore VS Code settings except settings.json
+.vscode/*
+!.vscode/settings.json

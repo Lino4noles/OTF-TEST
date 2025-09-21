@@ -1,0 +1,54 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "outDir": "dist",
+    "baseUrl": "./",
+    "paths": {
+      "@features/*": [
+        "features/*"
+      ],
+      "@config/*": [
+        "config/*"
+      ],
+      "@fixtures/*": [
+        "fixtures/*"
+      ],
+      "@pages/*": [
+        "pages/*"
+      ],
+      "@steps/*": [
+        "step-definitions/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@resources/*": [
+        "resources/*"
+      ],
+      "@type/*": [
+        "types/*"
+      ]
+    },
+    "types": [
+      "node",
+      "playwright"
+    ]
+  },
+  "include": [
+    "**/*.ts",
+    "types/**/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
