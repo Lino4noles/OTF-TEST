@@ -46,7 +46,7 @@
   "include": [
     "**/*.ts",
     "types/**/*.d.ts"
-  ],
+, "config/cucumber.config.js"  ],
   "exclude": [
     "node_modules",
     "dist"
